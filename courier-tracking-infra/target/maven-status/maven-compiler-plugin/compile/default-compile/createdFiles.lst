@@ -1,0 +1,14 @@
+com/furkanozdemir/store/StoreDataAdapter.class
+com/furkanozdemir/store/repository/StoreRepository$1.class
+com/furkanozdemir/store/rest/StoreController.class
+com/furkanozdemir/CourierTrackingApplication.class
+com/furkanozdemir/store/repository/StoreRepository.class
+com/furkanozdemir/courier/entity/CourierLocation.class
+com/furkanozdemir/courier/entity/CourierEntity$CourierEntityBuilder.class
+com/furkanozdemir/courier/repository/CourierRepository.class
+com/furkanozdemir/courier/entity/CourierEntity.class
+com/furkanozdemir/common/BaseEntity.class
+com/furkanozdemir/store/entity/StoreEntity.class
+com/furkanozdemir/courier/CourierDataAdapter.class
+com/furkanozdemir/courier/model/CourierLocationRequest.class
+com/furkanozdemir/courier/rest/CourierController.class

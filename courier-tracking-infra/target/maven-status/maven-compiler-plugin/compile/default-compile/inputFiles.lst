@@ -1,0 +1,12 @@
+/Users/furkan/Downloads/courier-tracking/courier-tracking-infra/src/main/java/com/furkanozdemir/CourierTrackingApplication.java
+/Users/furkan/Downloads/courier-tracking/courier-tracking-infra/src/main/java/com/furkanozdemir/common/BaseEntity.java
+/Users/furkan/Downloads/courier-tracking/courier-tracking-infra/src/main/java/com/furkanozdemir/courier/CourierDataAdapter.java
+/Users/furkan/Downloads/courier-tracking/courier-tracking-infra/src/main/java/com/furkanozdemir/courier/entity/CourierEntity.java
+/Users/furkan/Downloads/courier-tracking/courier-tracking-infra/src/main/java/com/furkanozdemir/courier/entity/CourierLocation.java
+/Users/furkan/Downloads/courier-tracking/courier-tracking-infra/src/main/java/com/furkanozdemir/courier/model/CourierLocationRequest.java
+/Users/furkan/Downloads/courier-tracking/courier-tracking-infra/src/main/java/com/furkanozdemir/courier/repository/CourierRepository.java
+/Users/furkan/Downloads/courier-tracking/courier-tracking-infra/src/main/java/com/furkanozdemir/courier/rest/CourierController.java
+/Users/furkan/Downloads/courier-tracking/courier-tracking-infra/src/main/java/com/furkanozdemir/store/StoreDataAdapter.java
+/Users/furkan/Downloads/courier-tracking/courier-tracking-infra/src/main/java/com/furkanozdemir/store/entity/StoreEntity.java
+/Users/furkan/Downloads/courier-tracking/courier-tracking-infra/src/main/java/com/furkanozdemir/store/repository/StoreRepository.java
+/Users/furkan/Downloads/courier-tracking/courier-tracking-infra/src/main/java/com/furkanozdemir/store/rest/StoreController.java
