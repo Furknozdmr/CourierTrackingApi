@@ -1,0 +1,7 @@
+/Users/furkan/Downloads/courier-tracking/courier-tracking-domain/src/test/java/courier/CourierSaveLogLocationUseCaseHandlerTest.java
+/Users/furkan/Downloads/courier-tracking/courier-tracking-domain/src/test/java/courier/CourierTotalDistanceUseCaseHandlerTest.java
+/Users/furkan/Downloads/courier-tracking/courier-tracking-domain/src/test/java/pattern/DistanceStrategyFactoryTest.java
+/Users/furkan/Downloads/courier-tracking/courier-tracking-domain/src/test/java/pattern/HaversineDistanceStrategyTest.java
+/Users/furkan/Downloads/courier-tracking/courier-tracking-domain/src/test/java/pattern/enums/DistanceStrategyTypeTest.java
+/Users/furkan/Downloads/courier-tracking/courier-tracking-domain/src/test/java/pattern/enums/DistanceUnitTest.java
+/Users/furkan/Downloads/courier-tracking/courier-tracking-domain/src/test/java/store/StoreGetAllResponseUseCaseHandlerTest.java

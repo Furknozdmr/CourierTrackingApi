@@ -1,6 +1,8 @@
-package com.furkanozdemir.pattern;
+package pattern.enums;
 
 import com.furkanozdemir.common.DomainComponent;
+import com.furkanozdemir.pattern.DistanceCalculator;
+import com.furkanozdemir.pattern.HaversineDistanceStrategy;
 import com.furkanozdemir.pattern.enums.DistanceStrategyType;
 
 @DomainComponent

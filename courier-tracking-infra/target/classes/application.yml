@@ -1,7 +1,7 @@
 server:
   port: 9090
   servlet:
-      context-path: /courier-tracker-api
+    context-path: /courier-tracker-api
 spring:
   datasource:
     url: jdbc:h2:mem:testdb

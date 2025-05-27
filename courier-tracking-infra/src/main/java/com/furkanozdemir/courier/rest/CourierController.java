@@ -23,7 +23,7 @@ public class CourierController {
     private final UseCaseHandler<Double, CourierTotalDistanceUseCase> courierTotalDistanceUseCaseHandler;
 
     @PostMapping(path = "/log-instant-location")
-    @ResponseStatus(code = HttpStatus.CREATED) //
+    @ResponseStatus(code = HttpStatus.CREATED)
     public ResponseEntity<Void> logInstantLocation(@RequestBody CourierLocationRequest request) {
 
         var useCase = new CourierSaveLogLocationUseCase(request.courierId(), request.latitude(), request.longitude(), request.time());

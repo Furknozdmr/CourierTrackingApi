@@ -5,9 +5,9 @@ import com.furkanozdemir.common.UseCaseHandler;
 import com.furkanozdemir.courier.model.Courier;
 import com.furkanozdemir.courier.port.CourierLocationPort;
 import com.furkanozdemir.courier.usecase.CourierTotalDistanceUseCase;
-import com.furkanozdemir.pattern.DistanceStrategyFactory;
 import com.furkanozdemir.pattern.enums.DistanceUnit;
 import lombok.RequiredArgsConstructor;
+import pattern.enums.DistanceStrategyFactory;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;

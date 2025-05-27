@@ -1,0 +1,7 @@
+courier/CourierTotalDistanceUseCaseHandlerTest.class
+courier/CourierSaveLogLocationUseCaseHandlerTest.class
+pattern/enums/DistanceStrategyTypeTest.class
+pattern/DistanceStrategyFactoryTest.class
+store/StoreGetAllResponseUseCaseHandlerTest.class
+pattern/enums/DistanceUnitTest.class
+pattern/HaversineDistanceStrategyTest.class

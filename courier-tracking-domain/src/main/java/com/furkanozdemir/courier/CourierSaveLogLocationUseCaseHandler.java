@@ -6,10 +6,10 @@ import com.furkanozdemir.common.exception.CourierNearStoreException;
 import com.furkanozdemir.common.exception.InvalidLocationException;
 import com.furkanozdemir.courier.port.CourierLocationPort;
 import com.furkanozdemir.courier.usecase.CourierSaveLogLocationUseCase;
-import com.furkanozdemir.pattern.DistanceStrategyFactory;
 import com.furkanozdemir.pattern.enums.DistanceUnit;
 import com.furkanozdemir.store.port.StorePort;
 import lombok.RequiredArgsConstructor;
+import pattern.enums.DistanceStrategyFactory;
 
 import java.time.LocalDateTime;
 
@@ -36,12 +36,10 @@ public class CourierSaveLogLocationUseCaseHandler implements VoidUseCaseHandler<
 
     private final StorePort storePort;
 
-    private final DistanceStrategyFactory distanceStrategyFactory;
-
     @Override
     public void handle(CourierSaveLogLocationUseCase useCase) {
         validateLocation(useCase.latitude(), useCase.longitude());
-        var calculator = distanceStrategyFactory.create(HAVERSINE);
+        var calculator = DistanceStrategyFactory.create(HAVERSINE);
         LocalDateTime oneMinuteAgo = useCase.dateTime().minusMinutes(1);
 
         var nearStore = storePort.getAllStore().stream().filter(storeModel -> {

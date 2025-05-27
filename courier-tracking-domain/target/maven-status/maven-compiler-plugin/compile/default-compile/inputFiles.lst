@@ -4,6 +4,7 @@
 /Users/furkan/Downloads/courier-tracking/courier-tracking-domain/src/main/java/com/furkanozdemir/common/VoidResponseUseCaseHandler.java
 /Users/furkan/Downloads/courier-tracking/courier-tracking-domain/src/main/java/com/furkanozdemir/common/VoidUseCaseHandler.java
 /Users/furkan/Downloads/courier-tracking/courier-tracking-domain/src/main/java/com/furkanozdemir/common/exception/CourierNearStoreException.java
+/Users/furkan/Downloads/courier-tracking/courier-tracking-domain/src/main/java/com/furkanozdemir/common/exception/InvalidLocationException.java
 /Users/furkan/Downloads/courier-tracking/courier-tracking-domain/src/main/java/com/furkanozdemir/common/exception/StoreListEmptyException.java
 /Users/furkan/Downloads/courier-tracking/courier-tracking-domain/src/main/java/com/furkanozdemir/courier/CourierSaveLogLocationUseCaseHandler.java
 /Users/furkan/Downloads/courier-tracking/courier-tracking-domain/src/main/java/com/furkanozdemir/courier/CourierTotalDistanceUseCaseHandler.java
@@ -12,10 +13,10 @@
 /Users/furkan/Downloads/courier-tracking/courier-tracking-domain/src/main/java/com/furkanozdemir/courier/usecase/CourierSaveLogLocationUseCase.java
 /Users/furkan/Downloads/courier-tracking/courier-tracking-domain/src/main/java/com/furkanozdemir/courier/usecase/CourierTotalDistanceUseCase.java
 /Users/furkan/Downloads/courier-tracking/courier-tracking-domain/src/main/java/com/furkanozdemir/pattern/DistanceCalculator.java
-/Users/furkan/Downloads/courier-tracking/courier-tracking-domain/src/main/java/com/furkanozdemir/pattern/DistanceStrategyFactory.java
 /Users/furkan/Downloads/courier-tracking/courier-tracking-domain/src/main/java/com/furkanozdemir/pattern/HaversineDistanceStrategy.java
 /Users/furkan/Downloads/courier-tracking/courier-tracking-domain/src/main/java/com/furkanozdemir/pattern/enums/DistanceStrategyType.java
 /Users/furkan/Downloads/courier-tracking/courier-tracking-domain/src/main/java/com/furkanozdemir/pattern/enums/DistanceUnit.java
 /Users/furkan/Downloads/courier-tracking/courier-tracking-domain/src/main/java/com/furkanozdemir/store/StoreGetAllResponseUseCaseHandler.java
 /Users/furkan/Downloads/courier-tracking/courier-tracking-domain/src/main/java/com/furkanozdemir/store/model/Store.java
 /Users/furkan/Downloads/courier-tracking/courier-tracking-domain/src/main/java/com/furkanozdemir/store/port/StorePort.java
+/Users/furkan/Downloads/courier-tracking/courier-tracking-domain/src/main/java/pattern/enums/DistanceStrategyFactory.java
