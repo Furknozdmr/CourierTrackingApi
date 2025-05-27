@@ -22,8 +22,6 @@ public class CourierTotalDistanceUseCaseHandler implements UseCaseHandler<Double
 
     private final CourierLocationPort courierLocationPort;
 
-    private final DistanceStrategyFactory distanceStrategyFactory;
-
     @Override
     public Double handle(CourierTotalDistanceUseCase useCase) {
         var locations = courierLocationPort.getLocationsByCourierId(useCase.courierId());
@@ -35,7 +33,7 @@ public class CourierTotalDistanceUseCaseHandler implements UseCaseHandler<Double
             return 0.0;
         }
 
-        var calculator = distanceStrategyFactory.create(HAVERSINE);
+        var calculator = DistanceStrategyFactory.create(HAVERSINE);
 
         double totalDistance = IntStream.range(0, locations.size() - 1).mapToDouble(i -> {
             Courier prev = locations.get(i);

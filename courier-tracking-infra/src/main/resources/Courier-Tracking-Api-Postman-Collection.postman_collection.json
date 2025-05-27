@@ -1,0 +1,88 @@
+{
+	"info": {
+		"_postman_id": "57017d6d-84e0-4100-ad9a-09abec82e33c",
+		"name": "Courier-Tracking-Api-Postman-Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "45099545",
+		"_collection_link": "https://universal-shuttle-8243824.postman.co/workspace/Furkan-%C3%96zdemir's-Workspace~70a4ed18-7ac1-4bd7-8e2c-8743be9ffd2f/collection/45099545-57017d6d-84e0-4100-ad9a-09abec82e33c?action=share&source=collection_link&creator=45099545"
+	},
+	"item": [
+		{
+			"name": "getAllStore",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "*/*"
+					}
+				],
+				"url": "http://localhost:9090/courier-tracker-api/store/all",
+				"description": "Generated from cURL: curl -X 'GET' \\\n  'http://localhost:9090/courier-tracker-api/store/all' \\\n  -H 'accept: */*'"
+			},
+			"response": []
+		},
+		{
+			"name": "Total Distance",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "*/*"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:9090/courier-tracker-api/courier/ahmet/totalDistance?distanceUnit=km",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"courier-tracker-api",
+						"courier",
+						"ahmet",
+						"totalDistance"
+					],
+					"query": [
+						{
+							"key": "distanceUnit",
+							"value": "km"
+						}
+					]
+				},
+				"description": "Generated from cURL: curl -X 'GET' \\\n  'http://localhost:9090/courier-tracker-api/courier/ahmet/totalDistance?distanceUnit=km' \\\n  -H 'accept: */*'"
+			},
+			"response": []
+		},
+		{
+			"name": "Save Log Location",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "*/*"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"courierId\": \"ahmet\",\n  \"latitude\": 40.9923307,\n  \"longitude\": 29.1244229,\n  \"time\": \"2025-05-27T05:45:38.773Z\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:9090/courier-tracker-api/courier/log-instant-location",
+				"description": "Generated from cURL: curl -X 'POST' \\\n  'http://localhost:9090/courier-tracker-api/courier/log-instant-location' \\\n  -H 'accept: */*' \\\n  -H 'Content-Type: application/json' \\\n  -d '{\n  \"courierId\": \"ahmet\",\n  \"latitude\": 40.9923307,\n  \"longitude\": 29.1244229,\n  \"time\": \"2025-05-27T05:45:38.773Z\"\n}'"
+			},
+			"response": []
+		}
+	]
+}
