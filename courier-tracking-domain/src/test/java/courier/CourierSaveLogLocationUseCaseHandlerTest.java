@@ -71,7 +71,7 @@ class CourierSaveLogLocationUseCaseHandlerTest {
     @AfterEach
     void tearDown() {
         if (mockedStaticDistanceStrategyFactory != null) {
-            mockedStaticDistanceStrategyFactory.close(); // Static mock'u kapat
+            mockedStaticDistanceStrategyFactory.close();
         }
     }
 
